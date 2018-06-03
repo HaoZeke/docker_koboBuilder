@@ -10,5 +10,6 @@ Works as a self contained setup for [koreader](https://github.com/koreader/korea
 The recommended usage leverages your existing build tree so you only need this as your build environment.
 
 ```bash
-docker run -it -h kobobot -v $SOURCE_LOCATION:/home/build/Github/Ereaders -v $HOME/.ccache/:/home/build/.ccache -v $HOME.cache/:/home/build/.cache HaoZeke/kobobot
+docker run -it -h kobobot -v $SOURCE_LOCATION:/home/build/Github/Ereaders -v
+$HOME/.ccache/:/home/build/.ccache -v $HOME/.cache/:/home/build/.cache -v $HOMEx-tools:/home/build/x-tools HaoZeke/kobobot
 ```
